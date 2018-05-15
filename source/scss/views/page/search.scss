@@ -1,5 +1,6 @@
 @import './index';
 
+
 .search__loader {
     position: relative;
     color: $main-color;
@@ -7,7 +8,7 @@
     font-size: 24px;
 
     @keyframes loader {
-        from { transform: translate(-50%, -50%) rotate(0) },
+        from { transform: translate(-50%, -50%) rotate(0) }
         to { transform: translate(-50%, -50%) rotate(360deg) }
     }
 
@@ -31,3 +32,8 @@
         margin: 0 5px;
     }
 }
+
+.page__mini-article img{
+    width: 100%;
+}
+
