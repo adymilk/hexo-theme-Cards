@@ -22,12 +22,15 @@ body {
 
         .mini-article__cover {
             &::before {
-                background-color: rgba(30, 200, 252, 0.9);
+                background-color: unset;
             }
 
             & > a {
                 transform: translate(-50%, -50%) rotateX(180deg) rotateZ(-360deg) scale(1);
                 opacity: 1;
+                display: block;
+                width: 100%;
+                height: 100%;
             }
         }
     }

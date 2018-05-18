@@ -14,7 +14,7 @@
                 <span class="date__month">{{ date(post.date || post.update, 'MMM') }}</span>
             {% endif %}
         </div>
-        <a itemprop="url" class="iconfont icon-enter" href="{{ url_for(post.path) }}"></a>
+        <a itemprop="url" class="" href="{{ url_for(post.path) }}"></a>
     </div>
     <div class="mini-article__info">
         <h3 itemprop="name" class="mini-article__title">
