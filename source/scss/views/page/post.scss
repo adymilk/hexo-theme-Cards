@@ -4,13 +4,27 @@
 body {
     @media screen and (min-width: $mq-desktop) {
         .page__post {
-            margin-right: $pad * 2;
+            margin-right: 0;
         }
     }
+    background-color: #ebecee;
+}
+
+article{
+    font-size: 16px;
+    line-height: 1.7em;
+    border-radius: 0 0 2px 2px;
 }
 
 .page__content {
     overflow: hidden;
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s,-webkit-box-shadow .25s;
+    margin: 0;
+    border-radius: 2px;
+    background-color: #fff;
 }
 
 .post__cover {
@@ -23,21 +37,54 @@ body {
 }
 
 .post__info {
-    margin: $pad * 4 0;
+    background-color: #3f51b5;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
+
+
+
 .post__title {
-    font-size: 2em;
+    font-size: 1.6rem;
     color: $title-fc;
     margin: .5em 0;
     font-weight: 400;
     line-height: 1;
+    color: #fff;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0 16px 0 16px;
+}
+
+@media screen and (min-width: 600px) {
+    .post__title{
+            font-size: 2.5rem;
+        }
 }
 
 .post__mark {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    background-color: inherit;
+    border-bottom: 1px solid hsla(0,0%,63%,.2);
+    padding: 16px 24px;
+    padding-right: 24px;
 }
 
 .mark__block {
@@ -77,9 +124,11 @@ body {
     }
 }
 
-.post__content {
-    @include post();
 
+
+.post__content {
+    padding: 0 16px 0 16px;
+    @include post();
     .post-announce {
         margin: 2em 0;
     }
@@ -128,4 +177,10 @@ body {
             text-align: right;
         }
     }
+}
+
+@media screen and (max-width: 650px){
+    .article_content{
+        padding: 0;
+    }        
 }

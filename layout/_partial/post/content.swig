@@ -5,8 +5,8 @@
 
     <header class="post__info">
         <h1 class="post__title">{{ page.title }}</h1>
-
-        <div class="post__mark">
+    </header>
+    <div class="post__mark">
             <div class="mark__block">
                 <i class="mark__icon iconfont icon-write"></i>
                 <ul class="mark__list clearfix">
@@ -43,7 +43,6 @@
             </div>
             {% endif %}
         </div>
-    </header>
 
     <div class="post__content">
         {{ render(page.content) }}

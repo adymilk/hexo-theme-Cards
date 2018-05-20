@@ -2,6 +2,14 @@
 @import '../../base/mixins';
 @import '../layout/mini-post';
 
+html {
+    line-height: 1.5;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    color: #333;
+}
+
+
 body {
     @media screen and (min-width: $mq-desktop) {
         .page__posts {

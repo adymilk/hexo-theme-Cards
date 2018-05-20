@@ -9,7 +9,6 @@
 body {
     margin: 0;
     padding: 0;
-
     font-family: $font-family;
     font-size: $main-fs;
     color: $main-fc;
@@ -26,4 +25,30 @@ body {
     &:hover {
         color: $main-color--hover;
     }
+}
+
+#comment{
+    padding: 0 16px 0 16px;
+}
+
+#reward_btn{
+    background-color: orange;
+    color: #ffffff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: block;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 70px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 2px #edd6a6cc;
+}
+
+#qr_code img{
+    width: 300px;
+}
+#qr_code{
+    clear: both;
+    display: none;
 }

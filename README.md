@@ -1,3 +1,11 @@
+hexo-theme-skapp 是在原作者的基础上修改成的
+
+## update log
+- [x] 摄影菜单
+- [x] 打赏
+- [x] 懒加载
+
+
 ## hexo-theme-skapp
 - [中文文档](./README-cn.md)
 ### Project Introduction

@@ -12,7 +12,7 @@ $back-top-size: 50px !default;
     color: #fff;
     transition: background $transition, opacity $transition;
     background: $main-color;
-    background: linear-gradient(to right, $main-color 35%, $main-color--hover 100%);
+    background: #3f51b5;
     background-size: 200% auto;
     border-radius: 50%;
     cursor: pointer;

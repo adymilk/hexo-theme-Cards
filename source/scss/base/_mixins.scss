@@ -8,6 +8,7 @@
     }
 }
 
+
 @mixin link($color, $dct: none) {
     font-size: inherit;
     text-decoration: $dct;
@@ -66,10 +67,10 @@
     }
 
     h1, h2, h3, h4, h5, h6 {
-        line-height: 1;
         font-weight: 400;
-        color: $title-fc;
-        margin-top: $main-fs * 2.5;
+        color: #3f51b5;
+        margin: .8em 0;
+        line-height: 1.4em;
     }
 
     ul, ol, dl {
@@ -79,7 +80,7 @@
     blockquote {
         position: relative;
         padding: 1.5em;
-        border-left: 5px solid #e4e4e4;
+        border-left: 5px solid #3f51b5;
         background-color: rgba(164,177,191,.1);
         overflow: hidden;
     }
@@ -97,13 +98,13 @@
     }
 
     .highlight {
-        background-color: #272822;
-        margin: $main-fs * 1.5 0;
+        margin-left: -16px;
+        margin-right: -16px;
+        background-color: #2b303b;
         color: #fff;
         padding: .5em;
         -webkit-overflow-scrolling: touch;
         overflow: auto;
-        font-size: 12px;
         font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
 
         & + & {
