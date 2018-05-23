@@ -5,7 +5,7 @@
         <div class="post__content">
                 <p align="center"><span id="reward_btn" onclick="document.getElementById('qr_code').style.display='block'">赏</span></p>
                 <div id="qr_code">
-                    <img src="http://oe3vwrk94.bkt.clouddn.com/20180519-2.jpg">    
+                    <img src="{{ config.reward.alipay }}">    
                     <img src="{{ config.reward.weixin }}">
                     
                 </div>

@@ -12,7 +12,7 @@ hexo-theme-skapp 是在原作者的基础上修改成的
 npm install --save hexo-autoprefixer hexo-filter-cleanup hexo-generator-feed hexo-generator-sitemap hexo-renderer-sass hexo-renderer-swig mamboer/lunr.js moment node-sass object-assign
 ```
 
-### 在博客根目录的 `_config.yml` 中设置主题为本主题
+### 在博客根目录的 `_config.yml` 中设置主题为本主题 
 
 ```
 # 启动hexo 服务器 运行博客
