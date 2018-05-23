@@ -1,5 +1,23 @@
 hexo-theme-skapp 是在原作者的基础上修改成的
 
+
+## 环境要求
+
+- node v9.8.0
+- npm 5.6.0
+
+## 需要安装的依赖
+直接在博客根目录打开终端安装
+```shell
+npm install --save hexo-autoprefixer hexo-filter-cleanup hexo-generator-feed hexo-generator-sitemap hexo-renderer-sass hexo-renderer-swig mamboer/lunr.js moment node-sass object-assign
+```
+
+### 在博客根目录的 `_config.yml` 中设置主题为本主题
+
+```
+# 启动hexo 服务器 运行博客
+hexo s
+```
 ## update log
 - [x] 摄影菜单
 - [x] 打赏
