@@ -1,6 +1,7 @@
 hexo-theme-skapp 是在原作者的基础上修改成的
+[在线预览](https://blog.adymilk.cn/)
 
-
+![效果预览](http://oe3vwrk94.bkt.clouddn.com/20180517-6.jpg)
 ## 环境要求
 
 - node v9.8.0
