@@ -23,17 +23,6 @@
                 </ul>
             </div>
 
-            <div class="mark__block">
-                <i class="mark__icon iconfont icon-tab"></i>
-                <ul class="mark__list clearfix">
-                    {% for tag in page.tags %}
-                        <li class="mark__item">
-                            <a href="{{ url_for(tag.path) }}">{{ titlecase(tag.name) }}</a>
-                        </li>
-                    {% endfor %}
-                </ul>
-            </div>
-
             {% if config.busuanzi %}
             <div class="mark__block">
                 <i class="mark__icon iconfont icon-eye"></i>

@@ -52,9 +52,10 @@
             <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
                 |<span id="busuanzi_container_site_uv"> 
                 本站访客数<span id="busuanzi_value_site_uv"></span>人次</span></br>
-                ©<a href="https://github.com/Mrminfive/hexo-theme-skapp" target="_blank">Skapp</a> 2014-<span id="cur_year"></span> |powered by
+                ©<a href="https://github.com/adymilk/hexo-theme-skapp" target="_blank">Skapp</a> 2014-<span id="cur_year"></span> |powered by
                 <a href="http://hexo.io/" target="_blank">Hexo</a>, made by 
-                <a href="https://github.com/Mrminfive" target="_blank">minfive</a>.
+                <a href="https://github.com/Mrminfive" target="_blank">minfive</a>, ui-deisgn by 
+                <a href="https://github.com/adymilk" target="_blank">王恒</a>.
                 
             </p>
             <ul class="footer__social-network clearfix">
@@ -80,3 +81,22 @@ var year = document.getElementById('cur_year').innerHTML = Cur_year.getFullYear(
 {% include '../../_partial/post/post-statistical.swig' %}
 
 
+<!-- 评论框 -->
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+<!-- baidu push -->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>

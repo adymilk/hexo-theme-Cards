@@ -17,21 +17,30 @@
         <a itemprop="url" class="" href="{{ url_for(post.path) }}"></a>
     </div>
     <div class="mini-article__info">
-        <h3 itemprop="name" class="mini-article__title">
+        <div class="card-header postinfo">
+            <h3 itemprop="name" class="mini-article__title">
             <a itemprop="url" href="{{ url_for(post.path) }}" title="{{ post.title }}">{{ post.title }}</a>
-        </h3>
-        <p class="mini-article__author">by 
-            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <a itemprop="url" href="{{ post.author.link }}" target="_blank">
-                    <span itemprop="name">{{ titlecase(post.author.nick) }}</span>
-                </a>
+            </h3>
+            <div class="card-meta">
+                <i class="mark__icon iconfont icon-time"></i>
+                <span>{{ date(post.date || post.update, 'Y-M-D') }}</span>
+
+                <i class="mark__icon iconfont icon-write"></i>
+                <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                    <a itemprop="url" href="{{ post.author.link }}" target="_blank" class="author">
+                        <span itemprop="name">{{ titlecase(post.author.nick) }}</span>
+                    </a>
             </span>
-        </p>
-        <p itemprop="articleSection" class="min-article__desc">
+            </div>
+        </div>
+        <div class="card-content">
+            <p itemprop="articleSection" class="min-article__desc">
             {{ post.subtitle }}
-        </p>
+            </p>
+            <a href="{{ url_for(post.path) }}" class="readmore">阅读全文</a>
+        </div>
+        
         <div class="min-article__tags">
-            <i class="iconfont icon-tab"></i>
             <ul class="tags__list clearfix">
                 {% for tag in post.tags %}
                     <li class="tags__item">
@@ -40,5 +49,6 @@
                 {% endfor %}
             </ul>
         </div>
+
     </div>
 </article>

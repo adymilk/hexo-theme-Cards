@@ -13,8 +13,9 @@ body {
 }
 
 .page__footer {
-    
+    background-color: $bgc--footer;
 }
+
 
 .footer__top {
     padding: 30px 0;
@@ -29,9 +30,9 @@ body {
 
 .footer__bottom {
     display: block;
-    background-color: $bgc--bottom;
     color: #fff;
     padding: 10px 0;
+    background-color: rgba(51,51,51,.08);
 
     a {
         @include link($main-color);
@@ -91,7 +92,7 @@ body {
     line-height: 1;
 
     .contact-info__item {
-        color: #69747a;
+        color: #9fa9ae;
         font-size: $main-fs - 2px;
 
         & + .contact-info__item {
