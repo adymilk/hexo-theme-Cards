@@ -3,7 +3,7 @@
     <nav class="page__navbar">
         <div class="page__container navbar-container">
             <a class="page__logo" href="{{ url_for('/') }}" title="{{ get_setting('title') }}" alt="{{ get_setting('title') }}">
-                <img src="{{ get_setting('logo') }}" alt="{{ get_setting('title') }}">
+                {{ get_setting('brand') }}
             </a>
 
             <nav class="page__nav">
@@ -25,7 +25,15 @@
 
     <section class="page__info">
         <h1 class="info__title">{{ get_setting('subtitle') }}</h1>
-        <hr class="info__hr">
-        <p class="info__desc">{{ get_setting('subtitle_desc') }}</p>
+        <div class="fh5co-left-position">
+            <p class="animate-box fadeInUp animated"><a href="/about" target="_blank" class="btn btn-outline">About me</a><a href="/pay" target="_blank" class="btn btn-primary">Support Me</a></p>
+        </div>
     </section>
+
+    <div class="fh5co-learn-more animate-box fadeInUp animated" style="margin-left: -50.5px;">
+                <a href="#" class="scroll-btn">
+                    <span class="text">Explore more</span>
+                    <span class="arrow"><i class="iconfont icon-top"></i></span>
+                </a>
+            </div>
 </header>

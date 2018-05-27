@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;    
+}
+a:visited{
+    color: unset;
+    text-decoration: none;   
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -13,8 +21,10 @@ body {
     font-size: $main-fs;
     color: $main-fc;
     line-height: 1.7;
-
     background-color: $bgc--main;
+    font-weight: 300;
+    height: 100%;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAMCAMAAAC+5dbKAAAAY1BMVEXn5+f5+fn////y8vL09PT8/Pzk5OTg4ODx8fH39/f7+/vp6enf39/i4uLr6+vd3d3+/v74+Pjv7+/w8PDj4+P29vbz8/Pl5eXc3Nzs7Ozt7e3h4eH6+vrm5ub19fXe3t7u7u47SnheAAAAkklEQVR42q3Paw7CIBBF4eFCKaXQGegD7UPd/yqtxDTxvxv4cg6RgtKmgbat1WiM6+D7EGngQYBkQ05jmBIgmft5IajCJd7uAkBW3kqIMwDqdyhnPMwRi4E/HWmGzZ7OKoA6nS4HqwCMTA/9cZ7HdDkTtVt1SFXn2+MXN8tvz5hce/UYwn6wjbxW51V7OgD/+noDa2gLye9Jpd0AAAAASUVORK5CYII=) repeat;
 }
 
 .link {
@@ -60,3 +70,77 @@ body {
     border-bottom: 1px solid hsla(0,0%,63%,.2);
     padding: 24px 16px;
 }
+
+.btn{
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-family: "Roboto", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.btn-outline{
+    background: none;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid gray;
+    border-top-color: gray;
+    border-right-color: gray;
+    border-bottom-color: gray;
+    border-left-color: gray;
+    font-size: 16px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.btn-outline:hover{
+    border-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.btn-primary:hover{
+    background: #fb6e6e !important;
+    border-color: #fb6e6e !important;    
+}
+
+.btn-primary {
+    background: #FA5555;
+    color: #fff;
+    border: 2px solid #FA5555;
+}
+
+
+.btn-outline, .btn-primary {
+    padding: 20px 30px !important;
+    min-width: 200px;
+    font-size: 18px;
+}
+
+.text-center{
+    width: 100%;
+    text-align: center;
+}
+    .fh5co-sub-lead {
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 300;
+        margin: 0 0 35px;
+        padding-bottom: 3em;
+        color: #85919d;
+    }
+
+    .fh5co-lead {
+        font-size: 50px;
+        font-weight: 300;
+        color: #484c50;
+        margin-bottom: 10px;
+
+    }
+

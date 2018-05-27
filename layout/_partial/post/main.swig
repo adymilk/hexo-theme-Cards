@@ -1,4 +1,6 @@
 <main class="page__container page__main article_content">
+
+
     <div class="page__content">
         {% include './content.swig' %}
 
@@ -27,19 +29,6 @@
         
     </div>
 
-    {% include '../common/sidebar.swig' %}
 </main>
 
-<!-- lazy load script -->
-
-<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
-
-<script>
-$("article img,article video").addClass("lazy");
-$("article img.lazy:gt(0),article video").each(function() {
-    $(this).attr("data-original",$(this).attr("src")).removeAttr("src");
-});
-$("article img").lazyload({effect: "fadeIn"});
-</script>
 

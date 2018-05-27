@@ -52,9 +52,7 @@
             <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
                 |<span id="busuanzi_container_site_uv"> 
                 本站访客数<span id="busuanzi_value_site_uv"></span>人次</span></br>
-                ©<a href="https://github.com/adymilk/hexo-theme-skapp" target="_blank">Skapp</a> 2014-<span id="cur_year"></span> |powered by
-                <a href="http://hexo.io/" target="_blank">Hexo</a>, made by 
-                <a href="https://github.com/Mrminfive" target="_blank">minfive</a>, ui-deisgn by 
+                ©<a href="https://github.com/adymilk/hexo-theme-skapp" target="_blank">Skapp</a> 2014-<span id="cur_year"></span>ui-deisgn by 
                 <a href="https://github.com/adymilk" target="_blank">王恒</a>.
                 
             </p>
@@ -73,30 +71,36 @@
     </section>
 </footer>
 
-<script>
-var Cur_year = new Date();
-var year = document.getElementById('cur_year').innerHTML = Cur_year.getFullYear();
-</script>
+
 
 {% include '../../_partial/post/post-statistical.swig' %}
+
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+    var Cur_year = new Date();
+    var year = document.getElementById('cur_year').innerHTML = Cur_year.getFullYear();
+</script>
 
 
 <!-- 评论框 -->
 <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
 <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 
-<!-- baidu push -->
+
+<!-- lazy load script -->
+
+<script src="https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></
+script>
+
+
 <script>
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-    }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
+    $("article img,article video").addClass("lazy");
+    $("article img.lazy:gt(0),article video").each(function() {
+        $(this).attr("data-original",$(this).attr("src")).removeAttr("src");
+    });
+    $("article img").lazyload({effect: "fadeIn"});
 </script>
+
+
+

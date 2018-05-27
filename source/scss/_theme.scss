@@ -2,20 +2,20 @@
  * blog theme 
  */
 
-$main-color: #19abd6                                !default;
+$main-color: #fa5555                                !default;
 $main-color--hover: lighten($main-color, 10%)       !default;
 
-$font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,"PingFang SC","Lantinghei SC","Microsoft Yahei","Hiragino Sans GB","Microsoft Sans Serif","WenQuanYi Micro Hei",sans           !default;
+$font-family: "Roboto", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, Arial, sans-serif           !default;
 
-$main-fc: #333                                      !default;
+$main-fc: #000000                                      !default;
 $main-fs: 14px                                      !default;
 $main-lh: 1.7                                       !default;
 
-$title-fc: #3f51b5                                  !default;
-
+$title-fc: #484c50                                  !default;
+$item-title: #ffffff;
 $hint-fc: #19abd6                                   !default;
 
-$bgc--main: #fff                                    !default;
+$bgc--main: #efefef                                 !default;
 $bgc--bottom: #2d383e                               !default;
 $bgc--footer: #3f51b5                               !default;
 

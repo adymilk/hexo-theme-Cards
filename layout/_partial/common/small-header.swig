@@ -3,7 +3,7 @@
     <nav class="page__navbar">
         <div class="page__container navbar-container">
             <a class="page__logo" href="{{ url_for('/') }}" title="{{ get_setting('title') }}" alt="{{ get_setting('title') }}">
-                <img src="{{ get_setting('logo') }}" alt="{{ get_setting('title') }}">
+                {{ get_setting('brand') }}
             </a>
 
             <nav class="page__nav">

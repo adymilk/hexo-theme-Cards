@@ -17,11 +17,12 @@
 <link rel="shortcut icon" href="{{ get_setting('favicon_ico') }}" sizes="32x32">
 
 
-<!-- Prefetch -->
-{% include './prefetch.swig' %}
+<!-- Prefetch 预加载-->
+<!-- {% include './prefetch.swig' %}-->
 
 <!-- CSS -->
 {{ css('scss/base/index') }}
+
 
 <!-- RSS -->
 {{ feed_tag('atom.xml') }}
