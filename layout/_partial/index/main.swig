@@ -5,7 +5,7 @@
     <div class="page__content page__content__mini">
         <div class="page__posts clearfix">
             {% for post in page.posts %}
-                <div class="page__post wow bounceInUp" data-wow-duration="2s">
+                <div class="page__post">
                     {% include '../post/mini.swig' with { post: post } %}
                 </div>
             {% endfor %}

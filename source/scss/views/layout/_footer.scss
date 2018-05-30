@@ -78,7 +78,6 @@ body {
         }
         
         & > a {
-            @include link($main-color);
             color: #fff;
         }
     }

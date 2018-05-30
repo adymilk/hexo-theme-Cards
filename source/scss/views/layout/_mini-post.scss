@@ -83,9 +83,8 @@ body {
     & > a {
         @include link(darken($main-color, 20%));
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%) rotateX(180deg) rotateZ(0) scale(.5);
+        top: 0;
+        left: 0;
         opacity: 0;
         display: block;
         color: #fff;
@@ -113,3 +112,26 @@ body {
     }
 }
 
+
+
+.mini-article__date {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgba(64,84,90,.7);
+    line-height: 1;
+}

@@ -46,7 +46,8 @@
         new Valine({
             el:'#comment',
             appId:'{{ config.Valine.appId }}',
-            appKey:'{{ config.Valine.appKey }}'
+            appKey:'{{ config.Valine.appKey }}',
+            avatar:'{{ config.Valine.avatar }}'
         })
     </script>
 

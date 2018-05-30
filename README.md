@@ -1,7 +1,7 @@
 ## 简介 
 这是一个卡片风格的 hexo 博客主题。简约大方，支持打赏，评论。自定义收款等多种功能。
 
-hexo-theme-skapp 是在原作者的基础上修改成的
+hexo-theme-skapp 是在原[作者](https://github.com/Mrminfive/hexo-theme-skapp)的基础上修改成的
 
 [在线预览](https://blog.adymilk.cn/)
 

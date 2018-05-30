@@ -5,14 +5,14 @@
 $main-color: #fa5555                                !default;
 $main-color--hover: lighten($main-color, 10%)       !default;
 
-$font-family: "Roboto", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, Arial, sans-serif           !default;
+$font-family: Roboto,Helvetica,Hiragino Sans GB,Hiragino Sans GB W3,Source Han Sans CN Regular,WenQuanYi Micro Hei,Microsoft YaHei,Arial,sans-serif          !default;
 
 $main-fc: #000000                                      !default;
 $main-fs: 14px                                      !default;
 $main-lh: 1.7                                       !default;
 
 $title-fc: #484c50                                  !default;
-$item-title: #ffffff;
+$item-title: #ffffff								!default;
 $hint-fc: #19abd6                                   !default;
 
 $bgc--main: #efefef                                 !default;

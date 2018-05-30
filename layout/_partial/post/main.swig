@@ -12,7 +12,7 @@
                     
                 </div>
             
-            <h4><i>你觉得这篇文章如何？在下面留言给我哦.</i></h4>
+            <h4 class="text-center" style="color:#000000;">” 打赏了的人都会变美~ “</h4>
         </div>
         
         {% if page.comments && config.gitTalk %}
@@ -32,3 +32,6 @@
 </main>
 
 
+<!-- 不蒜子统计 -->
+
+{{ js('js/libs/busuanzi.pure.mini') }}

@@ -7,6 +7,15 @@
             <img itemprop="image" src="{{ post.cover }}" alt="{{ post.title }}"/>
         {% endif %}
         
+        <div itemprop="datePublished" content="{{ data_xml(post.date || post.update) }}" class="mini-article__date">
+            <span class="date__day">{{ date(post.date || post.update, 'D') }}</span>
+            {% if config.language == 'zh-cn' %}
+                <span class="date__month">{{ date(post.date || post.update, 'MMMM') }}</span>
+            {% else %}
+                <span class="date__month">{{ date(post.date || post.update, 'MMM') }}</span>
+            {% endif %}
+        </div>
+
         <a itemprop="url" class="" href="{{ url_for(post.path) }}"></a>
     </div>
     <div class="mini-article__info">
