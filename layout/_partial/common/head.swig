@@ -27,5 +27,3 @@
 <!-- RSS -->
 {{ feed_tag('atom.xml') }}
 
-<!-- 统计 -->
-{% include './analytics.swig' %}

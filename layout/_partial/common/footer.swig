@@ -72,3 +72,6 @@
 
 
 {% include '../../_partial/post/post-statistical.swig' %}
+
+<!-- 统计 -->
+{% include './analytics.swig' %}
