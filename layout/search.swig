@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block header %}
-    {% include './_partial/common/header.swig' %}
+    {% include './_partial/common/small-header.swig' %}
 {% endblock %}
 
 {% block main %}

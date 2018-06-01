@@ -8,6 +8,15 @@
 
             <nav class="page__nav">
                 <ul class="nav__list clearfix">
+                        <li class="nav__item">
+                            <form id="page-search-from" class="page__search-from" action="/search/">
+                                <label class="search-form__item">
+                                    <input class="input" type="text" name="search" placeholder="Search...">
+                                    <i class="iconfont icon-search"></i>
+                                </label>
+                            </form>
+                        </li>
+                        
                     {% for item in get_setting('menu') %}
                         {% set name = __('menu.' + loop.key) %}
                         <li class="nav__item">

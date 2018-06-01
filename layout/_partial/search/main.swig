@@ -5,5 +5,4 @@
         </div>
     </div>
 
-    {% include '../common/sidebar.swig' %}
 </main>

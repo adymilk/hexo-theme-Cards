@@ -5,7 +5,7 @@ hexo-theme-skapp 是在原[作者](https://github.com/Mrminfive/hexo-theme-skapp
 
 [在线预览](https://blog.adymilk.cn/)
 
-![效果预览](http://oe3vwrk94.bkt.clouddn.com/20180529-1.jpg)
+![效果预览](http://oe3vwrk94.bkt.clouddn.com/20180601-2.jpg)
 ## 环境要求
 
 - node v9.8.0

@@ -36,7 +36,7 @@
                             <ul class="footer-top__list">
                                 {% for link in item %}
                                     <li class="list-item">
-                                        <a href="{{ link.link }}" title="{{ link.desc }}" target="_blank">{{ link.name }}</a>
+                                        <a href="{{ link.link }}" title="{{ link.desc }}" target="_blank" rel="nofollow">{{ link.name }}</a>
                                     </li>
                                 {% endfor %}
                             </ul>
@@ -50,8 +50,7 @@
         <div class="page__container footer__container">
             <p class="footer__copyright">
             
-                ©<a href="https://github.com/adymilk/hexo-theme-skapp" target="_blank">Skapp</a> 2014-<span id="cur_year"></span> ui-deisgn by 
-                <a href="https://github.com/adymilk" target="_blank">王恒</a>.
+                Copyright © <a href="https://github.com/adymilk/hexo-theme-Cards" target="_blank">Cards</a> 2014 - <span id="cur_year"></span> All rights reserved.
                 
             </p>
             <ul class="footer__social-network clearfix">

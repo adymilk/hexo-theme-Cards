@@ -1,7 +1,7 @@
 {% if page.comments && config.gitTalk %}
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script src="/js/md5.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" rel=“nofollow”>
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js" rel=“nofollow”></script>
+    <script src="/js/md5.min.js" rel=“nofollow”></script>
 
     <script>
         var tags = [{% for tag in page.tags %}'{{ tag.name }}', {% endfor %}];

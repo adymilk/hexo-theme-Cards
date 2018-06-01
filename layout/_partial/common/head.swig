@@ -10,7 +10,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 <meta name="format-detection" content="telephone=yes" />
 <meta name="mobile-web-app-capable" content="yes" />
-<meta name="robots" content="all" />
+<meta name="robots" content="nofollow" />
 
 <link rel="canonical" href="{{ url }}">
 

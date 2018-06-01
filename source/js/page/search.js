@@ -36,17 +36,6 @@
                             '<h3 itemprop="name" class="mini-article__title">',
                                 '<a itemprop="url" href="{{ url }}" title="{{ title }}">{{ title }}</a>',
                             '</h3>',
-                            
-                        '<div class="card-content">',
-                            '<p itemprop="articleSection" class="min-article__desc">{{ title }}</p>',
-                            '<a href="{{ url }}" class="readmore">阅读全文</a>',
-                        '</div>',
-                            '<div class="min-article__tags">',
-                                '<i class="iconfont icon-tab"></i>',
-                                '<ul class="tags__list clearfix">',
-                                    '{{ tagsHtml }}',
-                                '</ul>',
-                            '</div>',
                         '</div>',
                     '</article>',
                 '</div>'
