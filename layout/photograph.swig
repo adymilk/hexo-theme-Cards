@@ -1,7 +1,7 @@
 {% extends '_layout.swig' %}
 
 {% block pageCss %}
-    {{ css('scss/views/page/about') }}
+    {{ css('scss/views/page/photograph') }}
 {% endblock %}
 
 {% block header %}
@@ -9,7 +9,7 @@
 {% endblock %}
 
 {% block main %}
-    {% include './_partial/about/main.swig' %}
+    {% include './_partial/photograph/main.swig' %}
 {% endblock %}
 
 {% block other %}

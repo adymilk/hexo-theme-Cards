@@ -120,7 +120,7 @@ body {
     margin: $pad 0;
     text-align: center;
     transition: margin $transition;
-    color: white;
+    color: $item-title;
     font-weight: bold;
     font-size: 1.6rem;
     text-decoration: none;
@@ -152,7 +152,7 @@ body {
             line-height: $nav-height;
             padding: 0 $pad;
             @include link($main-color);
-            color: #fff;
+            color: $item-title;
             font-size: 1.1rem;
         }
     }

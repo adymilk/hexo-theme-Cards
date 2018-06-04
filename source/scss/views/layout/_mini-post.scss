@@ -136,3 +136,30 @@ body {
     background-color: rgba(64,84,90,.7);
     line-height: 1;
 }
+
+.categories-wrapper{
+    overflow: hidden;
+}
+.categories-wrapper ul{
+    height: 48px;
+    line-height: 48px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-left: 0;
+    float: left;
+}
+.categories-wrapper ul li{
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 1rem;
+    list-style: none;
+}
+
+.categories-wrapper .category-item-cur a{
+    color: $main-color;
+}
+
+
