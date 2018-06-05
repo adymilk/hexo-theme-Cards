@@ -5,7 +5,7 @@
 
 [在线预览我的博客](https://blog.adymilk.cn/)
 
-![效果预览](http://oe3vwrk94.bkt.clouddn.com/20180601-2.jpg)
+![效果预览](http://oe3vwrk94.bkt.clouddn.com/20180605-1.jpg)
 
 基础使用教程[点这里](https://github.com/adymilk/hexo-theme-Cards/blob/master/README-cn.md)
 
@@ -18,9 +18,9 @@
 - [x] 评论功能(无需登录或验证码即可评论)
 - [x] 站内搜索功能
 - [x] `hexo d -g` 一键部署的同时自动进行百度推送
-- []  移动端侧边栏导航
-- []  文章分类 `TAB`
-- []  文章中英转换
+- [ ] 移动端侧边栏导航
+- [ ] 文章分类 `TAB`
+- [ ] 文章中英转换
 
 ## 使用规范
 
