@@ -15,3 +15,7 @@
 {% block other %}
     {% include './_partial/common/comment.swig' %}
 {% endblock %}
+
+<script>
+$('.photo_wrap br').remove();
+</script>

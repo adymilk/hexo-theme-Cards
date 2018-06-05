@@ -14,3 +14,10 @@
 #comment-container {
     margin-top: $pad * 2;
 }
+
+.page__content {
+    width: 100%;
+    padding: 16px;
+    overflow-wrap: break-word;
+    background-color: #fff;
+}

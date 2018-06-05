@@ -66,8 +66,8 @@ window.addEventListener('load', function() {
 // get window height
 
 var height = $(window).height();
-$('#page-header').css('height',(height - 30));
+$('#page-header').css('height',(height - 50));
 
 $('.scroll-btn').click(function(){
-    $('html,body').animate({scrollTop:(height - 30)},800);
+    $('html,body').animate({scrollTop:(height - 50)},800);
 });

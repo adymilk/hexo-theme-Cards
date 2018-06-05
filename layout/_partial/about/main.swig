@@ -4,7 +4,7 @@
             {{ render(page.content) }}
         </div>
 
-		<h3><i>你觉得这篇文章如何？在下面留言给我哦.</i></h3>
+		<h3 class="text-center">评论区</h3>
         <div id="comment-container"></div>
         <div id="comment"></div>
     </div>

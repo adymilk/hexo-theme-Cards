@@ -6,11 +6,11 @@
 <!-- lazy load script -->
 <script src="https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
 <script>
-	$("article img,article video").addClass("lazy");
-    $("article img.lazy:gt(0),article video").each(function() {
+	$("article img,article video,.photo_wrap img").addClass("lazy");
+    $("article img.lazy:gt(0),article video,.photo_wrap img").each(function() {
         	$(this).attr("data-original",$(this).attr("src")).removeAttr("src");
         });
-    $("article img").lazyload({effect: "fadeIn"});
+    $("article img,.photo_wrap img").lazyload({effect: "fadeIn"});
 </script>
 
 

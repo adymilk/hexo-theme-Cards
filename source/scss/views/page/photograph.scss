@@ -14,3 +14,22 @@
 #comment-container {
     margin-top: $pad * 2;
 }
+
+.content__container{
+	overflow: hidden;	
+}
+
+.photo_wrap img{
+	width: 31%;
+	float: left;
+	margin: 5px;
+	border-radius: 4px;
+    max-height: 387.5px;
+}
+
+@media screen and(max-width: 650px){
+    .photo_wrap img{
+        width: 46%;
+        max-height: 46vw;
+    }
+}
