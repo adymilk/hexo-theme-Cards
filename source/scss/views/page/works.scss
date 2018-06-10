@@ -1,0 +1,103 @@
+@import '../../theme';
+@import '../../base/mixins';
+
+
+header{
+	position: relative;
+	height: 52vh;
+	background:url('http://cdn.alloyteam.com/assets/img/banner_1-ec70a4.jpg') no-repeat content-box;
+	background-attachment: fixed;
+}
+
+header .banner_text_wrapper{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	color: #fff;
+}
+.page__content {
+    width: 100%;
+    padding: 16px;
+    overflow-wrap: break-word;
+    background-color: #fff;
+}
+.project_title{
+	font-size: 1.8rem;
+}
+
+.project_title span{
+	font-family: Segoe UI Light,Microsoft YaHei,Arial,Helvetica,sans-serif;
+	display: block;
+	text-align: center;
+}
+.project_title span:nth-child(2){
+	color: #999;
+	font-size: 1rem;
+}
+
+.row{
+	margin: 3vw auto;
+	overflow: hidden;
+}
+.row .project_item{
+	width: 25%;
+	float: left;
+	padding: 0 15px;
+}
+
+@media screen and (max-width: $mq-mobile){
+	.row .project_item{
+		width: 100%;
+	}
+	
+}
+.row .project_item .item_wrapper{
+	border-radius: 4px;
+	background-color: #fff;
+	overflow: hidden;
+	margin-bottom: 33px;
+	box-shadow: 0 0 0 1px #dfebff;
+	transition: 0.3s;
+
+}
+.row .project_item .item_wrapper:hover{
+	box-shadow: 2px 5px 16px 5px #dfebff;
+}
+.row .project_item img:hover{
+	transform: scale(1.4);
+}
+.row .project_item .img{
+	width: 100%;
+	height: 165px;	
+	overflow: hidden;
+}
+
+.row .project_item img{
+	max-height: 100%;
+	width: 100%;
+	-webkit-transition: -webkit-transform 1s;
+}
+
+.row .project_item .project_name{
+	font-weight: blod;
+}
+.row .project_item .project_name,.row .project_item .project_descrition{
+	margin: 7px 9px;
+	color: #555;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.row .btn{
+	height: 40px;
+	width: 122px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	display: block;
+	line-height: 40px;
+	margin: 0 auto;
+}
+.row .view_more{
+	
+}
