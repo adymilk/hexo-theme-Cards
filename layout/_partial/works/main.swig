@@ -26,7 +26,7 @@
 		        			<img src="https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
 		        		</div>
 		        		<h3 class="project_name">家装企业管理系统</h3>
-		        		<p class="project_descrition">响应式前后台网站</p>
+		        		<p class="project_descrition">响应式前后台网站 TP5+H-ui </p>
 		        	</div>
         		</a>
         	</div>
@@ -65,3 +65,19 @@
         </div>
     </div>
 </main>
+
+
+<script>
+window.onload=function(){
+    $(window).scroll(function(){
+        var h = $(document).scrollTop();
+        var header_height = $('header').height();
+        if(h > header_height){
+            $('.page__header--small .page__navbar').css('background','#fa5555');
+        }else{
+            $('.page__header--small .page__navbar').css('background','unset');
+        }
+    });
+};
+
+</script>

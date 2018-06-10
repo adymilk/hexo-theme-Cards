@@ -9,6 +9,10 @@ header{
 	background-attachment: fixed;
 }
 
+.page__header--small .page__navbar{
+	background: unset;
+}
+
 header .banner_text_wrapper{
 	position: absolute;
 	width: 100%;
