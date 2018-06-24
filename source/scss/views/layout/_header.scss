@@ -67,6 +67,7 @@ body {
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
+    background-position: center;
 
     &::before {
         content: '';
