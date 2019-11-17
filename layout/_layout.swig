@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     {% block title %}
-        <title>{% if page.title %}{{ page.title }}|{{ get_setting('keywords') }} | {% endif %}{{ config.title|default(theme.title) }} - {{ config.description }}</title>
+        <title>{% if page.title %}{{ page.title }}|{{ get_setting('keywords') }} | {% endif %}{{ config.subtitle|default(theme.title) }}</title>
     {% endblock %}
 
     

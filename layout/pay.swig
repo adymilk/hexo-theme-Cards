@@ -40,13 +40,14 @@
 				</div>
 			</div>
 		<footer>
-			<p>感谢您的赞助！2015-2018 © <a href="https://blog.adymilk.cn/">王恒</a></p>
+			<p>感谢您的赞助！2015-<span id="curYear"></span> © <a href="https://blog.adymilk.cn/">王恒</a></p>
 		</footer>
 		</div>
 	</div>
 </body>
 
 <script>
-
+let curYear = new Date().getFullYear();
+document.getElementById('curYear').append(curYear);
 </script>
 </html>

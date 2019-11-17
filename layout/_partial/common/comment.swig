@@ -47,7 +47,8 @@
             el:'#comment',
             appId:'{{ config.Valine.appId }}',
             appKey:'{{ config.Valine.appKey }}',
-            avatar:'{{ config.Valine.avatar }}'
+            avatar:'{{ config.Valine.avatar }}',
+            placeholder: '想说什么，在这里留言吧(๑•̀ㅂ•́)و✧',
         })
     </script>
 

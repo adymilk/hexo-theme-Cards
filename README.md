@@ -7,10 +7,10 @@
 
 
 ## 首页
-![效果预览](http://oe3vwrk94.bkt.clouddn.com/20180605-1.jpg)
+![效果预览](http://img.0551shengteng.cn20180605-1.jpg)
 
 ## 赞助页
-![个人赞助页面](http://oe3vwrk94.bkt.clouddn.com/20180610-2.png)
+![个人赞助页面](http://img.0551shengteng.cn20180610-2.png)
 
 基础使用教程[点这里](https://github.com/adymilk/hexo-theme-Cards/blob/master/README-cn.md)
 
