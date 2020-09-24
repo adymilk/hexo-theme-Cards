@@ -40,7 +40,7 @@
 				</div>
 			</div>
 		<footer>
-			<p>感谢您的赞助！2015-<span id="curYear"></span> © <a href="https://blog.adymilk.cn/">王恒</a></p>
+			<p>感谢您的赞助！2015-<span id="curYear"></span> © <a href="/">王恒</a></p>
 		</footer>
 		</div>
 	</div>

@@ -7,10 +7,17 @@
 
 
 ## 首页
+<<<<<<< HEAD
 ![效果预览](http://img.0551shengteng.cn20180605-1.jpg)
 
 ## 赞助页
 ![个人赞助页面](http://img.0551shengteng.cn20180610-2.png)
+=======
+![效果预览](http://img.0551shengteng.cn/20180605-1.jpg)
+
+## 赞助页
+![个人赞助页面](http://img.0551shengteng.cn/20180610-2.png)
+>>>>>>> 3f16b00d7d9ae375662976786b3c9cd038145160
 
 基础使用教程[点这里](https://github.com/adymilk/hexo-theme-Cards/blob/master/README-cn.md)
 

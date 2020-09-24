@@ -12,7 +12,7 @@
                     
                 </div>
             
-            <h4 class="text-center" style="color:#000000;">” 打赏了的人都会变美~ “</h4>
+            <h4 class="text-center" style="color:#000000;">” 打赏了的人都会变美~, “</h4>
         </div>
         
         {% if page.comments && config.gitTalk %}
