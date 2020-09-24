@@ -3,10 +3,11 @@
 
 `hexo-theme-Cards` 是在原[作者](https://github.com/Mrminfive/hexo-theme-skapp)的基础上修改成的(声明)
 
-[在线预览我的博客](https://blog.adymilk.cn/)
+[在线预览我的博客](https://adymilk.github.io/)
 
 
 ## 首页
+<<<<<<< HEAD
 <<<<<<< HEAD
 ![效果预览](http://img.0551shengteng.cn20180605-1.jpg)
 
@@ -18,6 +19,12 @@
 ## 赞助页
 ![个人赞助页面](http://img.0551shengteng.cn/20180610-2.png)
 >>>>>>> 3f16b00d7d9ae375662976786b3c9cd038145160
+=======
+![效果预览](微信截图_20200512092343.png)
+
+## 赞助页
+[个人赞助页面](https://adymilk.github.io/pay/)
+>>>>>>> 2a3b2499e0f7676230e1af16919034636fbc5a54
 
 基础使用教程[点这里](https://github.com/adymilk/hexo-theme-Cards/blob/master/README-cn.md)
 
